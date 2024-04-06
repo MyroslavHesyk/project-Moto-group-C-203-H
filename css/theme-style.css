@@ -1405,3 +1405,26 @@ fieldset
 #slider-range{
 	width: 400px;
 }
+
+
+
+/* ДЛЯ dmenu */
+
+.dm-menu {
+	--dm-bg: #fff !important;
+	--dm-item-hover-bg: #fe4c16 !important;
+	--dm-menu-height: 80px !important;
+	margin-top: -20px;
+	
+}
+.dm-menu > ul > li {
+	border-right: 1px solid #949494 !important;
+	display: flex;
+}
+.dm-menu > ul > li:first-child {
+	border-left: 1px solid #949494 !important;
+}
+.icon-social {
+	color:#fe4c16 ;
+	font-size: 26px;
+}
